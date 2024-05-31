@@ -1,1 +1,1 @@
-# Conatains Front end for project
+# Contains Front end for project
