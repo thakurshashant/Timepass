@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from "react-router-dom"
 
 function Login() {
   return (
@@ -30,7 +31,7 @@ function Login() {
     {/* button */}
     <div className="flex justify-around mt-4">
       <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200"> Login</button>
-      <p>Not registered? <span className="underline text-blue-500 cursor-pointer">Signup</span></p>
+      <p>Not registered? <Link to="/signup" className="underline text-blue-500 cursor-pointer">Signup</Link></p>
       </div>
   </div>
 </dialog>
